@@ -21,6 +21,7 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('' , views.home , name='home'),
+    
 
     #todo
     path('todo/' ,include('todo.urls')),
